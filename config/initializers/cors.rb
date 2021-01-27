@@ -7,7 +7,7 @@ Rails.appliction.config.middleware.insert_before 0, Rack::Cors do
   end
 
   allow do
-    origins 'https://dental-clinic.heroku.app'
+    origins 'https://dental-clinic-react.heroku.com'
     resource '*', headers: :any, methods: %i[get post put patch delete options head], credentials: true
   end
 end
