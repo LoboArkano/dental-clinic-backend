@@ -21,7 +21,7 @@ class SessionsController < ApplicationController
     if @current_user
       render json: {
         logged_in: true,
-        user: @curren_user
+        user: @current_user
       }
     else
       render json: {
