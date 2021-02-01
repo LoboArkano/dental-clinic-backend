@@ -19,7 +19,7 @@ RSpec.describe Appointment, type: :model do
   end
 
   context 'validations' do
-    let(:user) { User.create(name: 'Jenifer', email: 'jenifer@hotmail.com', password: '1234', password_confirm: '1234') }
+    let(:user) { User.create(name: 'Jenifer', email: 'jenifer@hotmail.com', password: '123', password_confirm: '123') }
     let(:doctor) { Doctor.create(name: 'Jaskier') }
     let(:treatment) { Treatment.create(name: 'Lorem', price: 100, desc: 'Ipsum') }
 
