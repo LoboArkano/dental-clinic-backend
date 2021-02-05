@@ -7,7 +7,7 @@ class DoctorsController < ApplicationController
   end
 
   def show
-    doctor = Doctor.find(params['doctor']['id'])
+    doctor = Doctor.find(params['id'])
     render json: {
       doctor: doctor
     }
