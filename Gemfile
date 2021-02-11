@@ -36,6 +36,7 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.16'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'rack-cors', require: 'rack/cors'
+gem 'rails_same_site_cookie', '~> 0.1.8'
 gem 'rubocop', '~>0.81.0'
 
 group :development, :test do
