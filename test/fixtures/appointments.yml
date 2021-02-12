@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2021-01-29 01:03:24
+  completed: false
+  user: one
+  doctor: MyString
+  treatment: MyString
+
+two:
+  date: 2021-01-29 01:03:24
+  completed: false
+  user: two
+  doctor: MyString
+  treatment: MyString
